@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<SimscapeMultibodyImportXML version="2.0" xmlns="urn:mathworks:SimscapeMultibody:import" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Created by="" on="06/13/21||19:12:01" using="Simscape Multibody Link Version 7.0" from="SolidWorks 29.2.0"/>
+<ModelUnits mass="kilogram" length="millimeter"/>
+<DataUnits mass="kilogram" length="meter"/>
+<RootAssembly name="PUMA560_ASSEM" uid="PUMA560_ASSEM" version="144">
+<AssemblyFile name="PUMA560_ASSEM.SLDASM" type="SolidWorks Assembly"/>
+<InstanceTree>
+<Instance name="PUMA560_Link0_base-1" uid="PUMA560_Link0_base-1" entityUid="PUMA560_Link0_base*:*Predeterminado">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="PUMA560_Link1-1" uid="PUMA560_Link1-1" entityUid="PUMA560_Link1*:*Predeterminado">
+<Transform>
+<Rotation>0.99469133782302432 3.777791739488928e-14 0.10290355902417736 3.7757181941945155e-14 -1 2.1493481734344275e-15 0.10290355902417736 1.7474103904685931e-15 -0.99469133782302432</Rotation>
+<Translation>-2.3234146016272563e-14 0.62357000000000129 0</Translation>
+</Transform>
+</Instance>
+<Instance name="PUMA560_Link2-1" uid="PUMA560_Link2-1" entityUid="PUMA560_Link2*:*Predeterminado">
+<Transform>
+<Rotation>0.99469133782302432 0.035159391273652058 -0.096710700882108105 3.775751091043009e-14 0.93981881481254681 0.34167322886691037 0.10290355902417733 -0.33985940111994306 0.93482963421713972</Rotation>
+<Translation>-0.16675005587267536 0.62356999999999518 -0.017250752634813231</Translation>
+</Transform>
+</Instance>
+<Instance name="PUMA560_Link4-1" uid="PUMA560_Link4-1" entityUid="PUMA560_Link4*:*Predeterminado">
+<Transform>
+<Rotation>0.98239514224518509 0.087446109713978037 0.16508471276575981 -0.186249967632453 0.52712617565180531 0.82912540939209722 -0.014516681782443447 -0.84527579690808197 0.53413302941442797</Rotation>
+<Translation>-0.20315156842862486 0.57495557900026317 0.70486488581072693</Translation>
+</Transform>
+</Instance>
+<Instance name="PUMA560_Link3-1" uid="PUMA560_Link3-1" entityUid="PUMA560_Link3*:*Predeterminado">
+<Transform>
+<Rotation>-0.99469133782302421 0.087446109713981368 0.054243159529406212 -3.7757181941945168e-14 0.52712617565180597 -0.8497870291683095 -0.10290355902417699 -0.84527579690808119 -0.524327840860626</Rotation>
+<Translation>-0.1327142565714555 0.77110450022473165 0.39424993461779384</Translation>
+</Transform>
+</Instance>
+<Instance name="PUMA560_Link6-1" uid="PUMA560_Link6-1" entityUid="PUMA560_Link6*:*Default">
+<Transform>
+<Rotation>-0.95948797945227915 -0.17741922079584685 0.21887265105256387 0.27975968066237933 -0.50776441358171787 0.81480661593760861 -0.033426611588170299 0.84302889653451907 0.53682859577850806</Rotation>
+<Translation>-0.21786001870119628 0.51625505195895127 0.80053063945107927</Translation>
+</Transform>
+</Instance>
+<Instance name="PUMA560_Link5-1" uid="PUMA560_Link5-1" entityUid="PUMA560_Link5*:*Predeterminado">
+<Transform>
+<Rotation>0.16508471276575884 -0.97019042342379425 -0.17741922079584768 0.82912540939209622 0.23393664911766932 -0.50776441358171742 0.53413302941442953 -0.063278641707572136 0.84302889653451907</Rotation>
+<Translation>-0.20839647746394571 0.54333920577940009 0.75556347810992808</Translation>
+</Transform>
+</Instance>
+</InstanceTree>
+<Constraints>
+<Coincident name="Coincident1">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>PUMA560_Link0_base-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>PUMA560_ASSEM</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident2">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>PUMA560_Link0_base-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>PUMA560_ASSEM</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident3">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>PUMA560_Link0_base-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>PUMA560_ASSEM</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident4">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>PUMA560_Link0_base-1</Uid>
+</InstancePath>
+<Position>-2.0383694732117965e-14 0.54864000000000135 0</Position>
+<Axis>-3.7153132713834051e-14 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>PUMA560_Link1-1</Uid>
+</InstancePath>
+<Position>0 0.074929999999999941 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric2">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>PUMA560_Link0_base-1</Uid>
+</InstancePath>
+<Position>-2.0383694732117965e-14 0.54864000000000135 0</Position>
+<Axis>-3.7153132713834051e-14 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>PUMA560_Link1-1</Uid>
+</InstancePath>
+<Position>0 0.074929999999999941 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident7">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>PUMA560_Link1-1</Uid>
+</InstancePath>
+<Position>-0.14224000000000006 0 0</Position>
+<Axis>-1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>PUMA560_Link2-1</Uid>
+</InstancePath>
+<Position>0.025400000000000034 -0.031737139026684846 -0.039623652003159704</Position>
+<Axis>1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric3">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>PUMA560_Link1-1</Uid>
+</InstancePath>
+<Position>-0.14224000000000006 0 0</Position>
+<Axis>-1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>PUMA560_Link2-1</Uid>
+</InstancePath>
+<Position>0.025399999999999978 2.2204460492503131e-16 0</Position>
+<Axis>1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident8">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>PUMA560_Link2-1</Uid>
+</InstancePath>
+<Position>0 1.1102230246251565e-16 0.43180000000000007</Position>
+<Axis>1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>PUMA560_Link3-1</Uid>
+</InstancePath>
+<Position>0.076200000000000018 0 1.1102230246251565e-16</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric4">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>PUMA560_Link2-1</Uid>
+</InstancePath>
+<Position>0 1.1102230246251565e-16 0.43180000000000007</Position>
+<Axis>1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>PUMA560_Link3-1</Uid>
+</InstancePath>
+<Position>0.076200000000000018 0 1.1102230246251565e-16</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident9">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>PUMA560_Link3-1</Uid>
+</InstancePath>
+<Position>0.07619999999999999 -0.3517900000101461 0.040640000000000009</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>PUMA560_Link4-1</Uid>
+</InstancePath>
+<Position>0.038099999999999967 0.020319999994926952 0.04064000000000012</Position>
+<Axis>0 1 2.2204460492503131e-16</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric5">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>PUMA560_Link3-1</Uid>
+</InstancePath>
+<Position>0.038100000000000023 -0.35179000001014599 1.1102230246251565e-16</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>PUMA560_Link4-1</Uid>
+</InstancePath>
+<Position>0 0.020319999994926841 0</Position>
+<Axis>0 1 2.2204460492503131e-16</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric6">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>PUMA560_Link4-1</Uid>
+</InstancePath>
+<Position>0 -0.05997875780266082 -0.04064000000000012</Position>
+<Axis>0 2.2204460492503131e-16 1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>PUMA560_Link5-1</Uid>
+</InstancePath>
+<Position>0.034290000000000043 0 -1.6653345369377348e-16</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident11">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>PUMA560_Link4-1</Uid>
+</InstancePath>
+<Position>0 -0.059978757802660931 0.012700000000000045</Position>
+<Axis>0 -2.2204460492503131e-16 -1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>PUMA560_Link5-1</Uid>
+</InstancePath>
+<Position>0.012700000000000156 0 -1.1102230246251565e-16</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident12">
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>PUMA560_Link5-1</Uid>
+</InstancePath>
+<Position>1.1102230246251565e-16 0 0.053339999999999999</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>PUMA560_Link6-1</Uid>
+</InstancePath>
+<Position>0 0.052500000000000047 -1.1102230246251565e-16</Position>
+<Axis>0 -1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident13">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>PUMA560_Link5-1</Uid>
+</InstancePath>
+<Position>1.1102230246251565e-16 0 0.053339999999999999</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>PUMA560_Link6-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 -1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+</Constraints>
+</RootAssembly>
+<Assemblies>
+</Assemblies>
+<Parts>
+<Part name="PUMA560_Link0_base" uid="PUMA560_Link0_base*:*Predeterminado" version="344">
+<ModelUnits mass="kilogram" length="inch"/>
+<PartFile name="PUMA560_Link0_base.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>15.786733475327303</Mass>
+<CenterOfMass>-9.5398851498198078e-11 0.19251642609477715 -0.021961712230401706</CenterOfMass>
+<Inertia>0.55024234059942589 0.16071279349366241 0.50423634005111373 -0.022162346442909511 2.8629735428149891e-11 -1.674341872560108e-10</Inertia>
+</MassProperties>
+<GeometryFile name="PUMA560_Link0_base_Predeterminado_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="0.94999999999999996" g="0.94999999999999996" b="0.94999999999999996" a="1"/>
+<Specular r="0.94999999999999996" g="0.94999999999999996" b="0.94999999999999996" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.20000000000000001</Shininess>
+</VisualProperties>
+</Part>
+<Part name="PUMA560_Link1" uid="PUMA560_Link1*:*Predeterminado" version="201">
+<ModelUnits mass="kilogram" length="inch"/>
+<PartFile name="PUMA560_Link1.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>4.4341275613540514</Mass>
+<CenterOfMass>-0.022504693513443155 0.002791443093080965 -2.2004532437508497e-10</CenterOfMass>
+<Inertia>0.013316183963518205 0.027164178265390145 0.027327742545387258 -7.7933047034380557e-09 1.0049536086135991e-08 -0.00027853998862862548</Inertia>
+</MassProperties>
+<GeometryFile name="PUMA560_Link1_Predeterminado_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="0.94999999999999996" g="0.94999999999999996" b="0.94999999999999996" a="1"/>
+<Specular r="0.94999999999999996" g="0.94999999999999996" b="0.94999999999999996" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.20000000000000001</Shininess>
+</VisualProperties>
+</Part>
+<Part name="PUMA560_Link2" uid="PUMA560_Link2*:*Predeterminado" version="231">
+<ModelUnits mass="kilogram" length="inch"/>
+<PartFile name="PUMA560_Link2.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>16.846609042557301</Mass>
+<CenterOfMass>-0.047640397525325846 -4.6775426817776379e-05 0.082736524558405009</CenterOfMass>
+<Inertia>0.65975811150988972 0.59657336974101727 0.097229720239975614 -7.8859060227044318e-06 0.0043474607629717353 4.8382913024663346e-05</Inertia>
+</MassProperties>
+<GeometryFile name="PUMA560_Link2_Predeterminado_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="PUMA560_Link3" uid="PUMA560_Link3*:*Predeterminado" version="185">
+<ModelUnits mass="kilogram" length="inch"/>
+<PartFile name="PUMA560_Link3.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>4.6025125755022254</Mass>
+<CenterOfMass>0.038101562286216153 -0.088774177762268619 -1.1787958055211317e-06</CenterOfMass>
+<Inertia>0.087354595335496596 0.009191629183916538 0.082615268035401299 -4.8370451018356705e-07 3.6529044580901481e-07 -2.2739451331583512e-06</Inertia>
+</MassProperties>
+<GeometryFile name="PUMA560_Link3_Predeterminado_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="0.94999999999999996" g="0.94999999999999996" b="0.94999999999999996" a="1"/>
+<Specular r="0.94999999999999996" g="0.94999999999999996" b="0.94999999999999996" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.20000000000000001</Shininess>
+</VisualProperties>
+</Part>
+<Part name="PUMA560_Link4" uid="PUMA560_Link4*:*Predeterminado" version="149">
+<ModelUnits mass="kilogram" length="inch"/>
+<PartFile name="PUMA560_Link4.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.47079044701252137</Mass>
+<CenterOfMass>0 -0.027569712250984719 0</CenterOfMass>
+<Inertia>0.00077288609433121133 0.00046683449961441089 0.00073771865596839088 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="PUMA560_Link4_Predeterminado_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.25098039215686274" g="0.25098039215686274" b="0.25098039215686274" a="1"/>
+<Diffuse r="0.1756862745098039" g="0.1756862745098039" b="0.1756862745098039" a="1"/>
+<Specular r="0.050196078431372554" g="0.050196078431372554" b="0.050196078431372554" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.20000000000000001</Shininess>
+</VisualProperties>
+</Part>
+<Part name="PUMA560_Link5" uid="PUMA560_Link5*:*Predeterminado" version="150">
+<ModelUnits mass="kilogram" length="inch"/>
+<PartFile name="PUMA560_Link5.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.077406461699050771</Mass>
+<CenterOfMass>0 -3.9262475682151734e-10 0.010974136933452547</CenterOfMass>
+<Inertia>4.5413533524416649e-05 4.3031912182785255e-05 1.6966265241748507e-05 -1.1303411429472825e-12 0 1.2064885837718843e-11</Inertia>
+</MassProperties>
+<GeometryFile name="PUMA560_Link5_Predeterminado_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="PUMA560_Link6" uid="PUMA560_Link6*:*Default" version="125">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="PUMA560_Link6.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.012</Mass>
+<CenterOfMass>0 0.021666666666666667 0</CenterOfMass>
+<Inertia>2.7916666666666694e-06 9.6250000000000053e-06 1.2366666666666671e-05 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="PUMA560_Link6_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+</Parts>
+</SimscapeMultibodyImportXML>
